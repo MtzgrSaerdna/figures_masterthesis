@@ -1,9 +1,54 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0" version="28.2.3">
   <diagram name="Page-1" id="t9QckakyJCAnOjBR_PWa">
-    <mxGraphModel dx="1088" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="750" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="610" pageHeight="972" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pkcuJ74VicS6LP3SfL4s-22" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pkcuJ74VicS6LP3SfL4s-6" target="pkcuJ74VicS6LP3SfL4s-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pkcuJ74VicS6LP3SfL4s-26" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pkcuJ74VicS6LP3SfL4s-6" target="pkcuJ74VicS6LP3SfL4s-9">
+          <mxGeometry x="0.7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pkcuJ74VicS6LP3SfL4s-6" value="Minimum Distance to&lt;br&gt;Sequence GS?" style="rhombus;whiteSpace=wrap;html=1;align=center;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pkcuJ74VicS6LP3SfL4s-4" value="For each Gaussian" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=left;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;spacing=0;textDirection=ltr;" edge="1" parent="1" source="pkcuJ74VicS6LP3SfL4s-1" target="pkcuJ74VicS6LP3SfL4s-3">
+          <mxGeometry y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pkcuJ74VicS6LP3SfL4s-1" value="&lt;font&gt;Load New GS&lt;/font&gt;&amp;nbsp;from Block X" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=0;glass=0;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="15" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pkcuJ74VicS6LP3SfL4s-20" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pkcuJ74VicS6LP3SfL4s-3" target="pkcuJ74VicS6LP3SfL4s-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pkcuJ74VicS6LP3SfL4s-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pkcuJ74VicS6LP3SfL4s-3" target="pkcuJ74VicS6LP3SfL4s-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pkcuJ74VicS6LP3SfL4s-3" value="Inside Block X" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="160" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pkcuJ74VicS6LP3SfL4s-5" value="Add GS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="15" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pkcuJ74VicS6LP3SfL4s-9" value="Withdraw GS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=0;glass=0;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="440" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pkcuJ74VicS6LP3SfL4s-25" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pkcuJ74VicS6LP3SfL4s-11" target="pkcuJ74VicS6LP3SfL4s-5">
+          <mxGeometry x="-0.3962" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pkcuJ74VicS6LP3SfL4s-27" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pkcuJ74VicS6LP3SfL4s-11" target="pkcuJ74VicS6LP3SfL4s-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pkcuJ74VicS6LP3SfL4s-11" value="Too close to any&lt;br&gt;origin from Block Y?" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="150" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
